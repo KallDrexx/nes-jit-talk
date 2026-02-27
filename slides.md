@@ -28,25 +28,43 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # NES Hardware
 
+<img src="/img/nes-hardware.png" style="height:90%" />
+
 ---
 
 # What Is An Emulator?
+
+<img src="/img/understanding-emulators.png" style="height:90%" />
 
 ---
 
 # Giant Switch Blocks
 
+<img src="/img/switch-block.png" style="height:90%" />
+
 ---
 
 # CPU Pipelineing
+
+<img src="/img/pipelined.webp" />
 
 ---
 
 # Branch Prediction
 
+<img src="/img/branch-misprediction.png" style="height:90%" />
+
 ---
 
 # Linear Assembly Is Efficient
+
+<img src="/img/instruction_execution_in_5_stage_pipeline.webp" style="height:90%" />
+
+---
+
+# Giant Switch Blocks
+
+<img src="/img/switch-block.png" style="height:90%" />
 
 ---
 
