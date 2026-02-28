@@ -68,15 +68,33 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
+# Just-In-Time Assembly Generation
+
+<img src="/img/understanding-emulators.png" style="height:90%" />
+
+---
+
 # .Net Runtime To The Rescue
+
+<img src="/img/Architecture-of-NET-framework.png" style="height:90%" />
 
 ---
 
 # Microsoft Intermediate Language (MSIL)
 
+<img src="/img/msil-example.png" style="height:90%" />
+
+---
+
+# Building A Custom Assembly
+
+<img src="/img/assembly_generation.png"  />
+
 ---
 
 # ILGenerator Class
+
+<img src="/img/ilgenerator.png" style="height:90%" />
 
 ---
 
