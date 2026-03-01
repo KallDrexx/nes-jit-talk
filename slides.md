@@ -28,79 +28,79 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # NES Hardware
 
-<img src="/img/nes-hardware.png" style="height:90%" />
+<img src="/img/nes-motherboard.jpg" style="height:90%; display: block; margin: 0 auto" />
 
 ---
 
 # What Is An Emulator?
 
-<img src="/img/understanding-emulators.png" style="height:90%" />
+<img src="/img/understanding-emulators.png" style="height:90%; display: block; margin: 0 auto" />
 
 ---
 
 # Giant Switch Blocks
 
-<img src="/img/switch-block.png" style="height:90%" />
+<img src="/img/switch-block.png" style="height:90%; display: block; margin: 0 auto" />
 
 ---
 
 # CPU Pipelineing
 
-<img src="/img/pipelined.webp" />
+<img src="/img/pipelined.webp" style="height:95%; display: block; margin: 0 auto"/>
 
 ---
 
 # Branch Prediction
 
-<img src="/img/branch-misprediction.png" style="height:90%" />
+<img src="/img/branch-misprediction.png" style="height:90%; display: block; margin: 0 auto" />
 
 ---
 
 # Linear Assembly Is Efficient
 
-<img src="/img/instruction_execution_in_5_stage_pipeline.webp" style="height:90%" />
+<img src="/img/instruction_execution_in_5_stage_pipeline.webp" style="height:90%; display: block; margin: 0 auto" />
 
 ---
 
 # Giant Switch Blocks
 
-<img src="/img/switch-block.png" style="height:90%" />
+<img src="/img/switch-block.png" style="height:90%; display: block; margin: 0 auto" />
 
 ---
 
 # Just-In-Time Assembly Generation
 
-<img src="/img/understanding-emulators.png" style="height:90%" />
+<img src="/img/understanding-emulators.png" style="height:90%; display: block; margin: 0 auto" />
 
 ---
 
 # .Net Runtime To The Rescue
 
-<img src="/img/Architecture-of-NET-framework.png" style="height:90%" />
+<img src="/img/Architecture-of-NET-framework.png" style="height:90%; display: block; margin: 0 auto" />
 
 ---
 
 # Microsoft Intermediate Language (MSIL)
 
-<img src="/img/msil-example.png" style="height:90%" />
+<img src="/img/msil-example.png" style="height:90%; display: block; margin: 0 auto" />
 
 ---
 
 # Building A Custom Assembly
 
-<img src="/img/assembly_generation.png"  />
+<img src="/img/assembly_generation.png" style="height:95%; display: block; margin: 0 auto" />
 
 ---
 
 # ILGenerator Class
 
-<img src="/img/ilgenerator.png" style="height:90%" />
+<img src="/img/ilgenerator.png" style="height:90%; display: block; margin: 0 auto" />
 
 ---
 
-# 6502 Assembly
+# Beware!
 
-<img src="/img/6502-instructions.png" style="height:95%" />
+<img src="/img/invalid-program-exception.png" style="height:90%; display: block; margin: 0 auto" />
 
 ---
 
@@ -110,6 +110,29 @@ The last comment block of each slide will be treated as slide notes. It will be 
 * 7 CPU Flags
 * 8-bit memory read and writes
   * Including stack operations
+* Values can be constant values, direct memory locations, or indirect memory locations
+
+---
+
+# 6502 Assembly
+
+<img src="/img/6502-instructions.png" style="height:95%; display: block; margin: 0 auto" />
+
+---
+layout: two-cols
+---
+
+# 6502 Instruction
+
+1. Inc (Increment)
+
+::right::
+
+# Actual Work
+
+1. Increment operand 
+2. Set CPU Zero flag if result is zero
+3. Set CPU Negative flag if negative
 
 ---
 
@@ -127,6 +150,18 @@ The last comment block of each slide will be treated as slide notes. It will be 
   * Jump If Not Zero
   * Push Stack Value
   * Pop Stack Value
+
+--- 
+
+# Mental Model Of Function Calls
+
+<img src="/img/function-calls.png" style="height:95%; display: block; margin: 0 auto" />
+
+---
+
+# Actual Function Executions
+
+<img src="/img/program-flow.png" style="height:95%; display: block; margin: 0 auto" />
 
 ---
 
