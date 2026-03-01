@@ -98,6 +98,38 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
+# 6502 Assembly
+
+<img src="/img/6502-instructions.png" style="height:95%" />
+
+---
+
+# 6502 Operations
+
+* 3 8-bit registers
+* 7 CPU Flags
+* 8-bit memory read and writes
+  * Including stack operations
+
+---
+
+# Composable Sub-Instructions
+
+* 12 Partial Instructions
+  * Copy Value
+  * Return
+  * Unary Operator
+  * Binary Operator
+  * Mark Label
+  * Call Function
+  * Jump Unconditionally
+  * Jump If Zero
+  * Jump If Not Zero
+  * Push Stack Value
+  * Pop Stack Value
+
+---
+
 # JIT Loop
 
 ---
