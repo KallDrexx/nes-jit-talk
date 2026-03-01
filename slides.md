@@ -151,6 +151,18 @@ layout: two-cols
   * Push Stack Value
   * Pop Stack Value
 
+---
+
+# 6502 Function Disassembly
+
+<img src="/img/disassemble-function.png" style="height:95%; display: block; margin: 0 auto" />
+
+---
+
+# JIT Loop
+
+<img src="/img/jit-loop-no-cache.png" style="height:95%; display: block; margin: 0 auto" />
+
 --- 
 
 # Mental Model Of Function Calls
@@ -159,7 +171,7 @@ layout: two-cols
 
 ---
 
-# Actual Function Executions
+# Actual Function Calls
 
 <img src="/img/program-flow.png" style="height:95%; display: block; margin: 0 auto" />
 
@@ -167,9 +179,41 @@ layout: two-cols
 
 # JIT Loop
 
+<img src="/img/jit-loop-no-cache-return.png" style="height:95%; display: block; margin: 0 auto" />
+
 ---
 
 # Caching For Performance
+
+<img src="/img/jit-loop-full.png" style="height:95%; display: block; margin: 0 auto" />
+
+---
+
+# Self Modifying Code (flashing light warning)
+
+<video src="/img/c64-basic.mp4" autoplay=on loop=on style="height:95%; display: block; margin: 0 auto" />
+
+---
+
+# BASIC Loop
+
+1. Increment `B` value
+1. Increment `C` value
+1. Load memory address `0xCCBB`
+1. Parse Character
+1. Repeat For Next Character
+
+---
+
+# Self Modifying Code
+
+Diagram of Cache Invalidation On Write
+
+---
+
+# JIT Bottleneck
+
+<img src="/img/jit-bottleneck.webp" style="height:95%; display: block; margin: 0 auto" />
 
 ---
 
