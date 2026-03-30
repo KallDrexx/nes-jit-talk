@@ -88,7 +88,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # Building A Custom Assembly
 
-<img src="/img/assembly_generation.png" style="height:95%; display: block; margin: 0 auto" />
+<img src="/img/assembly_generation.png" style="display: block; margin: 0 auto" />
 
 ---
 
@@ -213,7 +213,7 @@ layout: two-cols
 
 # JIT Bottleneck
 
-<img src="/img/jit-bottleneck.webp" style="height:95%; display: block; margin: 0 auto" />
+<img src="/img/jit-bottleneck.webp" style="height:80%; display: block; margin: 0 auto" />
 
 ---
 
