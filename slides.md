@@ -20,7 +20,7 @@ mdc: true
 
 # Just-In-Time Compilation of NES Games In .Net
 
-<video src="/img/games.mp4" autoplay=on loop=on style="height:350px; display: block; margin: 0 auto" />
+<video src="/img/games.mp4" autoplay=on loop=on muted style="height:350px; display: block; margin: 0 auto" />
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
@@ -193,7 +193,7 @@ layout: two-cols
 
 # Self Modifying Code (flashing light warning)
 
-<video src="/img/c64-basic.mp4" autoplay=on loop=on style="height:95%; display: block; margin: 0 auto" />
+<video src="/img/c64-basic.mp4" autoplay=on loop=on muted style="height:95%; display: block; margin: 0 auto" />
 
 ---
 
