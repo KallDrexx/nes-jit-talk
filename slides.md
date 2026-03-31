@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+#background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: Just-In-Time Compilation of NES Games In .Net
 info:
@@ -19,6 +19,8 @@ mdc: true
 ---
 
 # Just-In-Time Compilation of NES Games In .Net
+
+<video src="/img/games.mp4" autoplay=on loop=on style="height:350px; display: block; margin: 0 auto" />
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
@@ -231,13 +233,11 @@ layout: two-cols
 
 # Performance Numbers
 
----
-
-# Performance Numbers (Sans GPU)
+<img src="/img/perf-numbers.png" style="height:90%; display: block; margin: 0 auto" />
 
 ---
 
-# MSIL Has Many Applications
+# Many Applications For These Techniques
 
 * Aspect-Oriented Programming
 * Compile-Time Performance For Runtime Logic
@@ -250,9 +250,11 @@ layout: two-cols
 
 # Thank You!
 
+<!--
 <img src="/img/linked-in-qr-code.png" style="height:70%; display: block; margin: 0 auto" />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 <a href="https://www.linkedin.com/in/mshapirodev">https://www.linkedin.com/in/mshapirodev</a>
+-->
 
 ::right::
 
