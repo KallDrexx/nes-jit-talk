@@ -46,7 +46,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# CPU Pipelineing
+# CPU Pipelining
 
 <img src="/img/pipelined.webp" style="height:95%; display: block; margin: 0 auto"/>
 
