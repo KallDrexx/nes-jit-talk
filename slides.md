@@ -22,9 +22,73 @@ mdc: true
 
 <video src="/img/games.mp4" autoplay=on loop=on muted style="height:350px; display: block; margin: 0 auto" />
 
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
+---
+
+# What Happens When You Compile Code?
+
+<img src="/img/llvm-trials.png" style="height:90%; display: block; margin: 0 auto" />
+---
+
+# Language Bytecode
+
+<img src="/img/bytecode.png" style="height:90%; display: block; margin: 0 auto" />
+---
+
+# .Net Runtime Process
+
+<img src="/img/Architecture-of-NET-framework.png" style="height:90%; display: block; margin: 0 auto" />
+---
+
+# What Is MSIL
+
+<img src="/img/msil-example.png" style="height:90%; display: block; margin: 0 auto" />
+
+---
+layout: center
+---
+
+# What Is Just-In-Time Compilation
+
+---
+
+# Why Is This Useful?
+
+---
+
+# Aspect Oriented Programming
+
+---
+
+# Decompilation
+
+---
+
+# Decompilation = Transpilation
+
+---
+
+# C# -> C
+
+---
+
+# C# On Embedded
+
+<video src="/img/embedded.mp4" autoplay=on loop=on muted style="height:350px; display: block; margin: 0 auto" />
+---
+
+# C# In The Linux Kernel
+
+<img src="/img/ebpf.png" style="height:90%; display: block; margin: 0 auto" />
+
+---
+
+# C# On An SNES
+
+<video src="/img/snes-csharp.mp4" autoplay=on loop=on muted style="height:400px; display: block; margin: 0 auto" />
+
+---
+
+# But Then I Had A Thought
 
 ---
 
@@ -67,24 +131,6 @@ The last comment block of each slide will be treated as slide notes. It will be 
 # Giant Switch Blocks
 
 <img src="/img/switch-block.png" style="height:90%; display: block; margin: 0 auto" />
-
----
-
-# Just-In-Time Assembly Generation
-
-<img src="/img/understanding-emulators.png" style="height:90%; display: block; margin: 0 auto" />
-
----
-
-# .Net Runtime To The Rescue
-
-<img src="/img/Architecture-of-NET-framework.png" style="height:90%; display: block; margin: 0 auto" />
-
----
-
-# Microsoft Intermediate Language (MSIL)
-
-<img src="/img/msil-example.png" style="height:90%; display: block; margin: 0 auto" />
 
 ---
 
@@ -189,60 +235,6 @@ layout: two-cols
 
 <img src="/img/jit-loop-full.png" style="height:95%; display: block; margin: 0 auto" />
 
----
-
-# Self Modifying Code (flashing light warning)
-
-<video src="/img/c64-basic.mp4" autoplay=on loop=on muted style="height:95%; display: block; margin: 0 auto" />
-
----
-
-# BASIC Loop
-
-1. Increment `B` value
-1. Increment `C` value
-1. Load memory address `0xCCBB`
-1. Parse Character
-1. Repeat For Next Character
-
----
-
-# Self Modifying Code
-
-<img src="/img/bad-smc-handling.png" style="height:95%; display: block; margin: 0 auto" />
-
----
-
-# JIT Bottleneck
-
-<img src="/img/jit-bottleneck.webp" style="height:80%; display: block; margin: 0 auto" />
-
----
-
-# Strategy #1: Interpreter
-
-## Back to the giant switch block!
-
----
-
-# Strategy #2: Detect Self Modifying Code Targets
-
-## Use custom instructions to handle known cases
-
----
-
-# Performance Numbers
-
-<img src="/img/perf-numbers.png" style="height:90%; display: block; margin: 0 auto" />
-
----
-
-# Many Applications For These Techniques
-
-* Aspect-Oriented Programming
-* Compile-Time Performance For Runtime Logic
-* Performance Evaluation
-* Decompilation
 
 --- 
 layout: two-cols
