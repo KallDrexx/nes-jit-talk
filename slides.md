@@ -229,12 +229,6 @@ layout: two-cols
 
 ---
 
-# 6502 Function Disassembly
-
-<img src="/img/disassemble-function.png" style="height:95%; display: block; margin: 0 auto" />
-
----
-
 # JIT Loop
 
 <img src="/img/jit-loop-no-cache.png" style="height:95%; display: block; margin: 0 auto" />
@@ -263,6 +257,11 @@ layout: two-cols
 
 <img src="/img/jit-loop-full.png" style="height:95%; display: block; margin: 0 auto" />
 
+---
+
+# Performance Numbers
+
+<img src="/img/perf-numbers.png" style="height:90%; display: block; margin: 0 auto" />
 
 --- 
 layout: two-cols
