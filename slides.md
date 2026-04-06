@@ -47,20 +47,26 @@ mdc: true
 layout: center
 ---
 
-# What Is Just-In-Time Compilation
-
----
-
 # Why Is This Useful?
 
 ---
 
 # Aspect Oriented Programming
 
+* Code that modifies code during or after compilation
+  * Typescript Decorators
+  * Java Annotations
+  * C# Attributes
+
+
 ---
 
 # Decompilation
 
+<img src="/img/decompilation-labelled.png" style="height:90%; display: block; margin: 0 auto" />
+
+---
+layout: center
 ---
 
 # Decompilation = Transpilation
@@ -68,6 +74,14 @@ layout: center
 ---
 
 # C# -> C
+
+<img src="/img/transpile-labelled.png" style="height:90%; display: block; margin: 0 auto" />
+
+---
+
+# C# On Embedded
+
+<img src="/img/embedded-csharp.png" style="height:90%; display: block; margin: 0 auto" />
 
 ---
 
@@ -78,7 +92,19 @@ layout: center
 
 # C# In The Linux Kernel
 
+<img src="/img/uprobe-code.png" style="height:90%; display: block; margin: 0 auto" />
+
+---
+
+# C# In The Linux Kernel
+
 <img src="/img/ebpf.png" style="height:90%; display: block; margin: 0 auto" />
+
+---
+
+# C# On An SNES
+
+<img src="/img/snes-code.png" style="height:90%; display: block; margin: 0 auto" />
 
 ---
 
@@ -86,6 +112,8 @@ layout: center
 
 <video src="/img/snes-csharp.mp4" autoplay=on loop=on muted style="height:400px; display: block; margin: 0 auto" />
 
+---
+layout: center
 ---
 
 # But Then I Had A Thought
