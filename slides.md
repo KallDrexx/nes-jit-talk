@@ -269,11 +269,9 @@ layout: two-cols
 
 # Thank You!
 
-<!--
 <img src="/img/linked-in-qr-code.png" style="height:70%; display: block; margin: 0 auto" />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 <a href="https://www.linkedin.com/in/mshapirodev">https://www.linkedin.com/in/mshapirodev</a>
--->
 
 ::right::
 
